@@ -1,6 +1,8 @@
 // Filename: threads.cpp
 // Compile command: gcc threads.cpp -o threads.exe -pthread 
 // Run command: ./threads.exe instructionprj2.txt prose.txt
+// The project uses 4 threads to divide the work of reading 20 instructions
+// and executing them to create 20 excerpts of a prose.txt file.
 
 #include <iostream>
 #include <sys/types.h>     
